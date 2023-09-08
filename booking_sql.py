@@ -2,7 +2,7 @@ import mysql.connector as a
 mydb=a.connect(
 	host='localhost',
 	user='root',
-	password='9507910150')
+	password='Password')
 cur=mydb.cursor()
 s="create database rms;"
 cur.execute(s)
